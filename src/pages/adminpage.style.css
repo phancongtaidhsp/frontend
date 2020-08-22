@@ -1,0 +1,82 @@
+.headerAdmin {
+	background-image: linear-gradient(
+		180deg,
+		#0b85bb 0%,
+		rgba(92, 181, 219, 0.5) 100%
+	);
+	height: 7rem;
+}
+.titleAdmin .titleText {
+	color: #fff;
+	font-style: normal;
+	font-weight: bold;
+	font-size: 3rem;
+	margin-top: 1rem;
+}
+.titleText span {
+	font-size: 2rem;
+}
+.titleIcon {
+	width: 100px;
+	height: 100px;
+}
+.borderImage {
+	top: 50%;
+	margin-top: 2rem;
+	margin-right: 5rem;
+	border: 2px solid black;
+	border-radius: 100px;
+	padding: 10px;
+	background: #fff;
+}
+#formHeader {
+	width: 100%;
+	margin-top: 5rem;
+	height: 8rem;
+}
+.leftForm {
+	height: 100%;
+}
+.leftForm .inputLeft {
+	width: 30rem;
+	padding: 5px 10px;
+}
+.centerForm button {
+	background: #0b85bb;
+	border: 1px solid #0b85bb;
+	box-sizing: border-box;
+	box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	border-radius: 10px;
+	color: #fff;
+	font-size: 1.5rem;
+	height: 3rem;
+	width: 10rem;
+	margin: 0 2rem;
+}
+.rightForm input {
+	padding: 0px 10px;
+	padding-bottom: 4rem;
+	height: 100%;
+	width: 30rem;
+}
+.tableAdmin {
+	margin-top: 3rem;
+}
+.rowAction {
+	height: 100%;
+}
+.rowAction button {
+	height: 50%;
+	background: #fff;
+	width: 8rem;
+}
+.deleteAction {
+	margin-bottom: 10px;
+}
+.rowAction button i {
+	margin-left: 10px;
+}
+.rowAction button:hover {
+	background-color: #444444;
+	color: #fff;
+}
